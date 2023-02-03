@@ -1,0 +1,56 @@
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-left: -15px;
+    padding: 13px;
+}
+li:last-child{
+    border-bottom: none;
+}
+li span{
+    font-size: 22px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+li h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+li .icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li .fa-cookie{
+    transition: .2s;
+}
+li .btn{
+    margin-right: 10px;
+}
+li .btn:hover .fa-cookie{
+    color: white;
+    transition: .2s;
+}
+li .fa-star{
+    color: gold;
+    margin-top: -2px;
+    transform: translateX(20px);
+    opacity: 0;
+    transition: 300ms;
+}
+.like .fa-star{
+    transform: translateX(0px);
+    opacity: 1;
+    transition: 300ms;
+}
+.cookie span,
+.cookie h4{
+    color: orange;
+    transition: .3s;
+}

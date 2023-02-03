@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+.content{
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  box-shadow: 0 0 50px #ddd;
+  padding: 40px 50px;
+  border-radius: 15px;
+}
+.box{
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 30px #eee;
+  border-radius: 10px;
+}
