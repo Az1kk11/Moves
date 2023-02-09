@@ -1,0 +1,45 @@
+.box{
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    margin-right: 10px;
+}
+.box .btn{
+    background-color: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 5px 35px;
+    color: white;
+    border: 1px solid white;
+}
+.todo_list{
+    min-width: 220px;
+    position: absolute;
+    cursor: move;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.todo_list .btn{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: black;
+    padding: 0;
+    padding: 0 3px;
+}
